@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tarot Reading</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Hãy chọn chủ đề bạn muốn coi</h1>
+
+  <div class="topic-buttons">
+    <button class="topic-btn" data-topic="love">Tình yêu</button>
+    <button class="topic-btn" data-topic="career">Sự nghiệp</button>
+    <button class="topic-btn" data-topic="finance">Tài chính</button>
+    <button class="topic-btn" data-topic="health">Sức khoẻ</button>
+    <button class="topic-btn" data-topic="general">Tổng quát</button>
+  </div>
+
+  <h2>Hãy chọn 3 lá bài của bạn</h2>
+  <div id="card-container"></div>
+
+  <button id="submitButton" disabled>Xem kết quả</button>
+
+  <div id="result" class="prediction-box"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
